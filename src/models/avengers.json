@@ -1,0 +1,27 @@
+{
+  "avengers": [{
+    "id": 1,
+    "name": "Captain America",
+    "email": "capam@gmail.com"
+  }, {
+    "id": 1,
+    "name": "Spider Man",
+    "email": "spidy@gmail.com"
+  }, {
+    "id": 1,
+    "name": "The Hulk",
+    "email": "iamhulk@gmail.com"
+  }, {
+    "id": 1,
+    "name": "Black Widow",
+    "email": "bwrocks@gmail.com"
+  }, {
+    "id": 1,
+    "name": "Iron Man",
+    "email": "tonyplayboy@gmail.com"
+  }, {
+    "id": 1,
+    "name": "The Mighty Thor",
+    "email": "thunderstrike@gmail.com"
+  }]
+}
