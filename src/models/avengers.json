@@ -2,26 +2,32 @@
   "avengers": [{
     "id": 1,
     "name": "Captain America",
-    "email": "capam@gmail.com"
+    "email": "capam@gmail.com",
+    "weapons": ["Shield"]
   }, {
     "id": 2,
     "name": "Spider Man",
-    "email": "spidy@gmail.com"
+    "email": "spidy@gmail.com",
+    "weapons": ["Web", "Strength"]
   }, {
     "id": 3,
     "name": "The Hulk",
-    "email": "iamhulk@gmail.com"
+    "email": "iamhulk@gmail.com",
+    "weapons": ["Ultimate Strength"]
   }, {
     "id": 4,
     "name": "Black Widow",
-    "email": "bwrocks@gmail.com"
+    "email": "bwrocks@gmail.com",
+    "weapons": ["Assasin Skills"]
   }, {
     "id": 5,
     "name": "Iron Man",
-    "email": "tonyplayboy@gmail.com"
+    "email": "tonyplayboy@gmail.com",
+    "weapons": ["Robotic Suit"]
   }, {
     "id": 6,
     "name": "The Mighty Thor",
-    "email": "thunderstrike@gmail.com"
+    "email": "thunderstrike@gmail.com",
+    "weapons": ["Mjolnir"]
   }]
 }

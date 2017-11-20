@@ -1,12 +1,30 @@
 const express = require('express');
 const app = express();
 
-const avengers = require('./models/avengers.json');
+const avengersData = require('./models/avengers.json');
 
 const PORT_NO = 3100;
 
+const getAvengerById = (id) => {
+  const allAvengers = avengersData.avengers;
+  for(let i = 0; i < allAvengers.length; i++) {
+    if(allAvengers[i].id === id) {
+      return allAvengers[i];
+    }
+  }
+};
+
 app.get("/avengers", (req, res) => {
-  res.send(avengers);
+  const avengerId = parseInt(req.query.id);
+  console.log("Fetching avenger with Id: "+avengerId);
+  const avenger = getAvengerById(avengerId);
+  console.log("Retrieved Avenger: ", avenger);
+  res.send(avenger);
+});
+
+app.get("/avengers/all", (req, res) => {
+  console.log("Fetching All avengers: ", avengersData);
+  res.send(avengersData);
 });
 
 app.listen(PORT_NO, () => {
