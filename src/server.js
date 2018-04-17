@@ -24,7 +24,9 @@ app.get("/avengers", (req, res) => {
 
 app.get("/avengers/all", (req, res) => {
   console.log("Fetching All avengers: ", avengersData);
-  res.send(avengersData);
+  setTimeout(() => {
+    res.send(avengersData);
+  }, 2000);
 });
 
 app.listen(PORT_NO, () => {
